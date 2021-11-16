@@ -7,6 +7,22 @@
 @layer base {
   h1 {
     @apply text-5xl;
+    @apply font-cocogoose;
+    @apply text-red-600;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  section {
+    @apply flex;
+    @apply flex-col;
+    @apply py-8;
+    @apply px-4;
+    @apply justify-center;
+    @apply items-center;
+    @apply gap-4;
   }
 }
 
@@ -15,4 +31,42 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.activity-container {
+  @apply flex;
+  @apply my-2;
+  @apply gap-2;
+  @apply p-4;
+  @apply items-center;
+}
+
+.activity {
+  @apply bg-gray-500;
+  @apply bg-opacity-30;
+  @apply rounded;
+}
+
+.activity-title {
+  @apply text-primary-orange;
+  @apply font-black;
+  @apply text-lg;
+  @apply w-7/12;
+  @apply p-2;
+}
+
+.img-feature-container {
+  @apply bg-feature;
+  @apply h-32;
+  @apply w-32;
+  @apply flex;
+  @apply justify-end;
+  @apply items-end;
+  @apply bg-50c;
+  @apply bg-no-repeat;
+}
+
+.img-feature {
+  @apply h-5/6;
+  @apply w-5/6;
 }

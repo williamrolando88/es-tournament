@@ -4,7 +4,8 @@
   "description": "This is a season tournament webpage",
   "main": "index.js",
   "scripts": {
-    "built-tailwind": "tailwindcss build -i src/css/base-styles.css -o public/css/styles.css"
+    "built-tailwind": "tailwindcss build -i src/css/base-styles.css -o public/css/styles.css",
+    "deploy-tailwind": "NODE_ENV=production npx tailwindcss build -i src/css/base-styles.css -o public/css/styles.css --minify"
   },
   "repository": {
     "type": "git",

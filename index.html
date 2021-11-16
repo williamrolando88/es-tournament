@@ -11,7 +11,7 @@
     ></script>
     <link rel="stylesheet" href="public/css/styles.css" />
   </head>
-  <body class="font-lato">
+  <body class="font-lato text-primary-black">
     <header>
       <nav>
         <div class="hidden fixed" id="desktop-menu">
@@ -38,14 +38,15 @@
             <div><a href="#">Join button</a></div>
           </div>
         </div>
-        <div class="fixed m-4 top-0 left-0" id="mobile-menu">
+        <div class="absolute m-4 top-0 left-0 md:hidden" id="mobile-menu">
           <i class="fas fa-bars text-4xl text-gray-600"></i>
         </div>
       </nav>
     </header>
+
     <main class="py-20 px-4 w-auto bg-gray-200 bg-opacity-25 bg-main">
-      <p class="text-2xl text-yellow-600">Welcome to</p>
-      <h1 class="font-cocogoose gradient-h1">E-Sport Amateur Tournament</h1>
+      <p class="text-2xl text-primary-orange">Welcome to</p>
+      <h1 class="gradient-h1">E-Sport Amateur Tournament</h1>
       <p class="border p-4 mt-8">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quam
         eius sapiente doloribus ut exercitationem ab, vitae omnis eos ducimus
@@ -58,57 +59,157 @@
         @ MiCo - Milano Convention Center, Milano, Italy
       </p>
     </main>
-    <section class="bg-program py-8 px-4 text-gray-200 flex-col" id="program">
+
+    <section class="bg-program text-primary-gray" id="program">
       <h2>Main program</h2>
-      <div class="w-1/6 bg-yellow-700 h-px"></div>
-      <div>
-        <article>
-          <h3>Participants Preparation</h3>
+      <div class="w-1/12 bg-yellow-700 h-0.5"></div>
+      <div class="flex flex-col gap-1 my-2">
+        <article class="activity activity-container">
+          <img
+            class="w-5/12"
+            src="assets/icons/icon-open-ceremony.png"
+            alt="open-ceremony-icon"
+          />
+          <h3 class="activity-title">Open Ceremony</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            facilis? Officiis autem tempore ullam beatae.
+          </p>
         </article>
-        <article>
-          <h3>Open Ceremony</h3>
+        <article class="activity-container activity">
+          <img
+            class="w-5/12"
+            src="assets/icons/icon-preparation.svg"
+            alt="participants-preparation-icon"
+          />
+          <h3 class="activity-title">Participants Preparation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            facilis? Officiis autem tempore ullam beatae.
+          </p>
         </article>
-        <article>
-          <h3>Free For All Tournament</h3>
+        <article class="activity activity-container">
+          <img
+            class="w-5/12"
+            src="assets/icons/icon-battle-royale.png"
+            alt="battle-royale-icon"
+          />
+          <h3 class="activity-title">Battle Royale Tournament</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            facilis? Officiis autem tempore ullam beatae.
+          </p>
         </article>
-        <article>
-          <h3>Sudden Death Tournament</h3>
+        <article class="activity activity-container">
+          <img
+            class="w-5/12"
+            src="assets/icons/icon-sudden-death.png"
+            alt="sudden-death-icon"
+          />
+          <h3 class="activity-title">Sudden Death Tournament</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            possimus architecto ad illum eum maiores.
+          </p>
         </article>
-        <article>
-          <h3>Ceremony Awards</h3>
+        <article class="activity activity-container">
+          <img
+            class="w-5/12"
+            src="assets/icons/icon-ceremony-awards.svg"
+            alt="ceremony-awards-icon"
+          />
+          <h3 class="activity-title">Ceremony Awards</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            quis in unde! Nostrum, omnis ab.
+          </p>
         </article>
       </div>
-      <button type="button">Join E-Sport Amateur Tournament</button>
+      <button
+        class="bg-primary-orange text-primary-gray px-4 py-6 font-bold text-lg"
+        type="button"
+      >
+        Join E-Sport Amateur Tournament
+      </button>
     </section>
+
     <section id="featured-games">
       <h2>Featured Games</h2>
-      <div>
-        <article><h3>Game 1 Free For All</h3></article>
-        <article><h3>Game 2 Free For All</h3></article>
-        <article><h3>Game 3 Free For All</h3></article>
-        <article><h3>Game 4 Free For All</h3></article>
-        <article><h3>Game 5 Sudden Death</h3></article>
-        <article><h3>Game 6 Sudden Death</h3></article>
-        <article><h3>Game 7 Sudden Death</h3></article>
-        <article><h3>Game 8 Sudden Death</h3></article>
+      <div class="w-1/12 bg-yellow-700 h-0.5"></div>
+      <div class="grid gap-12">
+        <article class="flex gap-3 items-start">
+          <div class="flex justify-end items-center">
+            <div class="img-feature-container">
+              <img
+                class="img-feature"
+                src="assets/img/bg-main.png"
+                alt="Here comes a game cover"
+              />
+            </div>
+          </div>
+          <div class="pt-4 px-2">
+            <h3 class="text-primary-black text-xl font-bold">
+              Game 1 Free For All
+            </h3>
+            <h4 class="text-primary-orange italic">
+              Game brief introduction g
+            </h4>
+            <div class="bg-primary-gray w-1/12 h-0.5 mt-1"></div>
+            <p class="text-sm mt-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure qui
+              expedita voluptatibus amet repellat hic!
+            </p>
+          </div>
+        </article>
       </div>
     </section>
-    <section id="partners">
+
+    <section class="bg-partners text-primary-gray" id="partners">
       <h2>Partners</h2>
-      <div>PC Gamer</div>
-      <div>E3</div>
-      <div>Twitch</div>
-      <div>Eurogamer</div>
-      <div>PC Zone</div>
+      <div class="w-1/12 bg-yellow-700 h-0.5"></div>
+      <div
+        class="
+          filter
+          grayscale
+          flex flex-wrap
+          justify-center
+          items-center
+          gap-12
+        "
+      >
+        <img
+          class="w-40 h-auto"
+          src="assets/icons/logo-PC-Gamer.png"
+          alt="logo-PC-Gamer"
+        />
+        <img class="w-40 h-auto" src="assets/icons/logo-E3.png" alt="logo-E3" />
+        <img
+          class="w-40 h-auto"
+          src="assets/icons/logo-eurogamer.png"
+          alt="logo-Eurogamer"
+        />
+        <img
+          class="w-40 h-auto"
+          src="assets/icons/logo-twitch.png"
+          alt="logo-twitch"
+        />
+      </div>
     </section>
-    <footer>
-      <img src="#" alt="Microverse-logo" />
-      <p>2021 Showcase project</p>
-      <p>
-        All the content exposed in this page is fictional. The brands and each
-        one of their icons and logos are property of their respective owners. If
-        any copyrigth was infriged, contact to immediatly remove.
-      </p>
+
+    <footer class="flex justify-between items-center p-8">
+      <img
+        class="w-40"
+        src="assets/icons/logo-microverse.png"
+        alt="Microverse-logo"
+      />
+      <div class="w-48">
+        <p>2021 Showcase project</p>
+        <p class="text-xs">
+          All the content exposed in this page is fictional. The icons, logos
+          and titles are property of their respective owners. For copyrigth
+          infrigement, immediatly contact to remove.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
