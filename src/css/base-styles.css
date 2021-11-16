@@ -1,3 +1,18 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+  }
+}
+
+.gradient-h1 {
+  background: -webkit-linear-gradient(top left, #dc2626, #d97706);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

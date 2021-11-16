@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ESports Tournament</title>
+    <title>E-Sports Tournament</title>
     <script
       src="https://kit.fontawesome.com/9eae86040a.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="public/css/styles.css" />
   </head>
-  <body>
+  <body class="font-lato">
     <header>
       <nav>
-        <div id="desktop-menu">
+        <div class="hidden fixed" id="desktop-menu">
           <div id="top-bar">
             <div id="social-icons">
               <div><a href="#">facebook</a></div>
@@ -29,7 +29,7 @@
           <div id="navbar">
             <div><a href="#">Event Logo</a></div>
             <div>
-              <a href="#">About</a>
+              <a href="about.html">About</a>
               <a href="#">Program</a>
               <a href="#">Join</a>
               <a href="#">Sponsor</a>
@@ -38,24 +38,29 @@
             <div><a href="#">Join button</a></div>
           </div>
         </div>
-        <div id="mobile-menu">
-          <i class="fas fa-bars"></i>
+        <div class="fixed m-4 top-0 left-0" id="mobile-menu">
+          <i class="fas fa-bars text-4xl text-gray-600"></i>
         </div>
       </nav>
     </header>
-    <main>
-      <p>Hello</p>
-      <h1>ESport Amateur Tournament</h1>
-      <p>
+    <main class="py-20 px-4 w-auto bg-gray-200 bg-opacity-25 bg-main">
+      <p class="text-2xl text-yellow-600">Welcome to</p>
+      <h1 class="font-cocogoose gradient-h1">E-Sport Amateur Tournament</h1>
+      <p class="border p-4 mt-8">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quam
         eius sapiente doloribus ut exercitationem ab, vitae omnis eos ducimus
         ad, nam corporis totam rem non mollitia labore temporibus porro!
       </p>
-      <h2>Here is the schedule</h2>
-      <p>Here is going to be</p>
+      <h2 class="font-cocogoose text-gray-600 text-3xl mt-4">
+        2022.05.06(FRI) ~ 08(SUN)
+      </h2>
+      <p class="text-gray-500 text-base">
+        @ MiCo - Milano Convention Center, Milano, Italy
+      </p>
     </main>
-    <section id="program">
+    <section class="bg-program py-8 px-4 text-gray-200 flex-col" id="program">
       <h2>Main program</h2>
+      <div class="w-1/6 bg-yellow-700 h-px"></div>
       <div>
         <article>
           <h3>Participants Preparation</h3>
@@ -73,7 +78,7 @@
           <h3>Ceremony Awards</h3>
         </article>
       </div>
-      <button type="button">Join ESport Amateur Tournament</button>
+      <button type="button">Join E-Sport Amateur Tournament</button>
     </section>
     <section id="featured-games">
       <h2>Featured Games</h2>
@@ -101,8 +106,8 @@
       <p>2021 Showcase project</p>
       <p>
         All the content exposed in this page is fictional. The brands and each
-        one of their icons and logos are properties of their respective owners.
-        If any copyrigth was infriged, contact to immediatly remove.
+        one of their icons and logos are property of their respective owners. If
+        any copyrigth was infriged, contact to immediatly remove.
       </p>
     </footer>
   </body>
