@@ -84,7 +84,7 @@
                   cursor-pointer
                 "
               >
-                <a href="#">Join button</a>
+                <a href="#">Join Event</a>
               </div>
             </div>
           </div>
@@ -207,21 +207,25 @@
         px-4
         w-auto
         bg-gray-200 bg-opacity-25 bg-main
-        md:pt-32 md:px-10%
+        md:pt-60 md:px-10% md:pb-32
       "
       id="home"
     >
-      <p class="text-2xl text-primary-orange">Welcome to</p>
-      <h1 class="gradient-h1">E-Sport Amateur Tournament</h1>
-      <p class="border p-4 mt-8">
+      <p class="text-2xl text-primary-orange md:text-5xl">Welcome to</p>
+      <h1 class="gradient-h1 md:text-8xl md:my-8">
+        E-Sport Amateur Tournament
+      </h1>
+      <p class="border p-4 mt-8 md:w-2/3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quam
         eius sapiente doloribus ut exercitationem ab, vitae omnis eos ducimus
         ad, nam corporis totam rem non mollitia labore temporibus porro!
       </p>
-      <h2 class="font-cocogoose text-gray-600 text-3xl mt-4">
+      <h2
+        class="font-cocogoose text-gray-600 text-3xl mt-4 md:mt-8 md:text-5xl"
+      >
         2022.05.06(FRI) ~ 08(SUN)
       </h2>
-      <p class="text-gray-500 text-base">
+      <p class="text-gray-500 text-base md:text-2xl md:">
         @ MiCo - Milano Convention Center, Milano, Italy
       </p>
     </main>
@@ -229,10 +233,10 @@
     <section class="bg-program text-primary-gray md:px-10%" id="program">
       <h2>Main program</h2>
       <div class="w-1/12 bg-yellow-700 h-0.5"></div>
-      <div class="flex flex-col gap-1 my-2 md:grid md:grid-cols-5">
+      <div class="flex flex-col gap-1 my-2 md:flex-row">
         <article class="activity activity-container">
           <img
-            class="w-5/12"
+            class="w-5/12 md:h-28 md:w-auto"
             src="assets/icons/icon-open-ceremony.png"
             alt="open-ceremony-icon"
           />
@@ -244,7 +248,7 @@
         </article>
         <article class="activity-container activity">
           <img
-            class="w-5/12"
+            class="w-5/12 md:h-28 md:w-auto"
             src="assets/icons/icon-preparation.svg"
             alt="participants-preparation-icon"
           />
@@ -256,7 +260,7 @@
         </article>
         <article class="activity activity-container">
           <img
-            class="w-5/12"
+            class="w-5/12 md:h-28 md:w-auto"
             src="assets/icons/icon-battle-royale.png"
             alt="battle-royale-icon"
           />
@@ -268,7 +272,7 @@
         </article>
         <article class="activity activity-container">
           <img
-            class="w-5/12"
+            class="w-5/12 md:h-28 md:w-auto"
             src="assets/icons/icon-sudden-death.png"
             alt="sudden-death-icon"
           />
@@ -280,7 +284,7 @@
         </article>
         <article class="activity activity-container">
           <img
-            class="w-5/12"
+            class="w-5/12 md:h-28 md:w-auto"
             src="assets/icons/icon-ceremony-awards.svg"
             alt="ceremony-awards-icon"
           />
@@ -302,7 +306,32 @@
     <section id="featured-games">
       <h2>Featured Games</h2>
       <div class="w-1/12 bg-yellow-700 h-0.5"></div>
-      <div class="grid gap-12">
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 md:px-10%">
+        <article class="flex gap-3 items-start">
+          <div class="flex justify-end items-center">
+            <div class="img-feature-container">
+              <img
+                class="img-feature"
+                src="assets/img/bg-main.png"
+                alt="Here comes a game cover"
+              />
+            </div>
+          </div>
+          <div class="pt-4 px-2">
+            <h3 class="text-primary-black text-xl font-bold">
+              Game 1 Free For All
+            </h3>
+            <h4 class="text-primary-orange italic">
+              Game brief introduction g
+            </h4>
+            <div class="bg-primary-gray w-1/12 h-0.5 mt-1"></div>
+            <p class="text-sm mt-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure qui
+              expedita voluptatibus amet repellat hic!
+            </p>
+          </div>
+        </article>
+
         <article class="flex gap-3 items-start">
           <div class="flex justify-end items-center">
             <div class="img-feature-container">
@@ -344,18 +373,22 @@
         "
       >
         <img
-          class="w-40 h-auto"
+          class="w-32 h-auto md:h-10 md:w-auto"
           src="assets/icons/logo-PC-Gamer.png"
           alt="logo-PC-Gamer"
         />
-        <img class="w-40 h-auto" src="assets/icons/logo-E3.png" alt="logo-E3" />
         <img
-          class="w-40 h-auto"
+          class="w-32 h-auto md:h-10 md:w-auto"
+          src="assets/icons/logo-E3.png"
+          alt="logo-E3"
+        />
+        <img
+          class="w-32 h-auto md:h-10 md:w-auto"
           src="assets/icons/logo-eurogamer.png"
           alt="logo-Eurogamer"
         />
         <img
-          class="w-40 h-auto"
+          class="w-32 h-auto md:h-10 md:w-auto"
           src="assets/icons/logo-twitch.png"
           alt="logo-twitch"
         />

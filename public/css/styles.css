@@ -629,6 +629,13 @@ section {
   gap: 1rem;
 }
 
+@media (min-width: 768px){
+  section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
 .container{
   width: 100%;
 }
