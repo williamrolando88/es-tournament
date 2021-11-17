@@ -10,41 +10,207 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="public/css/styles.css" />
+    <script src="public/js/script.js" defer></script>
   </head>
   <body class="font-lato text-primary-black">
     <header>
       <nav>
-        <div class="hidden fixed" id="desktop-menu">
-          <div id="top-bar">
-            <div id="social-icons">
-              <div><a href="#">facebook</a></div>
-              <div><a href="#">twitter</a></div>
-            </div>
-            <div id="languages">
-              <div><a href="#">English</a></div>
-              <div><a href="#">Spanish</a></div>
-              <div><a href="#">French</a></div>
-            </div>
+        <div
+          class="hidden absolute top-0 left-0 md:block w-full"
+          id="desktop-menu"
+        >
+          <div
+            class="
+              flex
+              justify-end
+              bg-primary-black
+              text-primary-gray
+              gap-4
+              h-8
+              items-center
+              p-x10%
+            "
+            id="top-bar"
+          >
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#">Log in</a>
+            <a href="#">Sign up</a>
+            <a href="#">English</a>
           </div>
-          <div id="navbar">
-            <div><a href="#">Event Logo</a></div>
-            <div>
-              <a href="about.html">About</a>
-              <a href="#">Program</a>
-              <a href="#">Join</a>
-              <a href="#">Sponsor</a>
-              <a href="#">News</a>
+          <div
+            class="
+              flex
+              justify-between
+              bg-white
+              text-primary-black
+              h-16
+              items-center
+              shadow-md
+              p-x10%
+            "
+            id="navbar"
+          >
+            <a
+              class="flex items-center gap-2 font-cocogoose text-primary-orange"
+              href="index.html"
+            >
+              <img
+                class="h-12"
+                src="assets/icons/logo-event.png"
+                alt="icon-event"
+              />
+              <div>
+                <p>E-Sport</p>
+                <p>Tournament</p>
+              </div>
+            </a>
+            <div class="flex items-center">
+              <a class="py-4 px-2 mx-2" href="about.html">About</a>
+              <a class="py-4 px-2 mx-2" href="#program">Program</a>
+              <a class="py-4 px-2 mx-2" href="#">Join</a>
+              <a class="py-4 px-2 mx-2" href="#partners">Sponsor</a>
+              <a class="py-4 px-2 mx-2" href="#">News</a>
+              <div
+                class="
+                  border-4
+                  py-3
+                  px-4
+                  border-primary-orange
+                  text-primary-orange
+                  ml-5%
+                  w-48
+                  text-center
+                  cursor-pointer
+                "
+              >
+                <a href="#">Join button</a>
+              </div>
             </div>
-            <div><a href="#">Join button</a></div>
           </div>
         </div>
-        <div class="absolute m-4 top-0 left-0 md:hidden" id="mobile-menu">
-          <i class="fas fa-bars text-4xl text-gray-600"></i>
+        <div class="absolute top-0 left-0 md:hidden" id="mobile-nav-menu">
+          <i class="fas fa-bars text-4xl text-gray-600 m-4 cursor-pointer"></i>
+          <div id="popup-menu" class="hidden">
+            <div
+              id="mobile-nav-header"
+              class="
+                absolute
+                top-0
+                left-0
+                w-screen
+                bg-white
+                flex
+                justify-between
+                border-b-2
+                shadow-sm
+                z-20
+              "
+            >
+              <i
+                class="fas fa-times text-4xl text-gray-600 m-4 cursor-pointer"
+              ></i>
+              <a
+                class="
+                  flex
+                  items-center
+                  gap-2
+                  font-cocogoose
+                  text-primary-orange
+                  mr-4
+                "
+                href="index.html"
+              >
+                <img
+                  class="h-12"
+                  src="assets/icons/logo-event.png"
+                  alt="icon-event"
+                />
+                <div>
+                  <p>E-Sport</p>
+                  <p>Tournament</p>
+                </div>
+              </a>
+            </div>
+            <div
+              id="mobile-menu-wrapper"
+              class="w-screen h-screen bg-gray-600 bg-opacity-40"
+            >
+              <div
+                id="mobile-menu"
+                class="
+                  absolute
+                  top-0
+                  left-0
+                  bg-white
+                  z-10
+                  flex flex-col
+                  w-60
+                  shadow-md
+                "
+              >
+                <a
+                  class="
+                    py-4
+                    w-full
+                    border-b-2
+                    pl-4
+                    text-lg text-primary-orange
+                    mt-20
+                  "
+                  href="about.html"
+                  >About</a
+                >
+                <a
+                  class="
+                    py-4
+                    w-full
+                    border-b-2
+                    pl-4
+                    text-lg text-primary-orange
+                  "
+                  href="#program"
+                  >Program</a
+                >
+                <a
+                  class="
+                    py-4
+                    w-full
+                    border-b-2
+                    pl-4
+                    text-lg text-primary-orange
+                  "
+                  href="#"
+                  >Join</a
+                >
+                <a
+                  class="
+                    py-4
+                    w-full
+                    border-b-2
+                    pl-4
+                    text-lg text-primary-orange
+                  "
+                  href="#partners"
+                  >Sponsor</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
 
-    <main class="py-20 px-4 w-auto bg-gray-200 bg-opacity-25 bg-main">
+    <main
+      class="
+        py-20
+        px-4
+        w-auto
+        bg-gray-200 bg-opacity-25 bg-main
+        md:pt-32 md:px-10%
+      "
+      id="home"
+    >
       <p class="text-2xl text-primary-orange">Welcome to</p>
       <h1 class="gradient-h1">E-Sport Amateur Tournament</h1>
       <p class="border p-4 mt-8">
@@ -60,10 +226,10 @@
       </p>
     </main>
 
-    <section class="bg-program text-primary-gray" id="program">
+    <section class="bg-program text-primary-gray md:px-10%" id="program">
       <h2>Main program</h2>
       <div class="w-1/12 bg-yellow-700 h-0.5"></div>
-      <div class="flex flex-col gap-1 my-2">
+      <div class="flex flex-col gap-1 my-2 md:grid md:grid-cols-5">
         <article class="activity activity-container">
           <img
             class="w-5/12"
@@ -71,7 +237,7 @@
             alt="open-ceremony-icon"
           />
           <h3 class="activity-title">Open Ceremony</h3>
-          <p>
+          <p class="md:text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
             facilis? Officiis autem tempore ullam beatae.
           </p>
@@ -83,7 +249,7 @@
             alt="participants-preparation-icon"
           />
           <h3 class="activity-title">Participants Preparation</h3>
-          <p>
+          <p class="md:text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
             facilis? Officiis autem tempore ullam beatae.
           </p>
@@ -95,7 +261,7 @@
             alt="battle-royale-icon"
           />
           <h3 class="activity-title">Battle Royale Tournament</h3>
-          <p>
+          <p class="md:text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
             facilis? Officiis autem tempore ullam beatae.
           </p>
@@ -107,7 +273,7 @@
             alt="sudden-death-icon"
           />
           <h3 class="activity-title">Sudden Death Tournament</h3>
-          <p>
+          <p class="md:text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             possimus architecto ad illum eum maiores.
           </p>
@@ -119,7 +285,7 @@
             alt="ceremony-awards-icon"
           />
           <h3 class="activity-title">Ceremony Awards</h3>
-          <p>
+          <p class="md:text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
             quis in unde! Nostrum, omnis ab.
           </p>
@@ -196,14 +362,14 @@
       </div>
     </section>
 
-    <footer class="flex justify-between items-center p-8">
+    <footer class="flex justify-between items-center gap-4 p-8 md:px-10%">
       <img
         class="w-40"
         src="assets/icons/logo-microverse.png"
         alt="Microverse-logo"
       />
-      <div class="w-48">
-        <p>2021 Showcase project</p>
+      <div class="w-auto md:w-96">
+        <p>Module No.1 Capstone Project - Nov 2021</p>
         <p class="text-xs">
           All the content exposed in this page is fictional. The icons, logos
           and titles are property of their respective owners. For copyrigth

@@ -39,6 +39,7 @@
   @apply gap-2;
   @apply p-4;
   @apply items-center;
+  @apply md:flex-col;
 }
 
 .activity {
@@ -53,6 +54,8 @@
   @apply text-lg;
   @apply w-7/12;
   @apply p-2;
+  @apply md:w-full;
+  @apply md:text-center;
 }
 
 .img-feature-container {

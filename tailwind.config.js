@@ -11,6 +11,7 @@ module.exports = {
         main: "url('../../assets/img/bg-main.png')",
         program: "url('../../assets/img/bg-program.png')",
         feature: "url('../../assets/img/bg-feature.jpg')",
+        title: "url('../../assets/img/bg-title.jpg')",
         partners: "url('../../assets/img/bg-partners.png')",
         tournament1: "url('../../assets/img/bg-tournament1.jpg')",
         tournament2: "url('../../assets/img/bg-tournament2.jpeg')",
@@ -25,6 +26,12 @@ module.exports = {
       },
       backgroundSize: {
         '50c': '50% 50%',
+      },
+      spacing: {
+        'x10%': '0 10%',
+        '20%': '20%',
+        '10%': '10%',
+        '5%': '5%',
       },
     },
   },
