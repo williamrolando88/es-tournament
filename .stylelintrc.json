@@ -10,11 +10,24 @@
           "apply",
           "variants",
           "responsive",
-          "screen"
+          "screen",
+          "layer"
         ]
       }
     ],
-    "scss/at-rule-no-unknown": true,
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind",
+          "apply",
+          "variants",
+          "responsive",
+          "screen",
+          "layer"
+        ]
+      }
+    ],
     "csstree/validator": true
   },
   "ignoreFiles": [
