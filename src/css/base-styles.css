@@ -13,6 +13,8 @@
 
   h2 {
     @apply text-2xl;
+    @apply md:font-bold;
+    @apply md:text-3xl;
   }
 
   section {
@@ -29,7 +31,6 @@
 
 .gradient-h1 {
   background: -webkit-linear-gradient(top left, #dc2626, #d97706);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

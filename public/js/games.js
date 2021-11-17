@@ -10,7 +10,7 @@ const main = async () => {
    */
   const createElementWithClass = (tag, className) => {
     const element = document.createElement(tag);
-    Array.isArray(className)
+    Array.isArray(className) // eslint-disable-line
       ? element.classList.add(...className)
       : element.classList.add(className);
     return element;

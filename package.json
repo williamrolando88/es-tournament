@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "built-tailwind": "tailwindcss build -i src/css/base-styles.css -o public/css/styles.css",
-    "deploy-tailwind": "NODE_ENV=production npx tailwindcss build -i src/css/base-styles.css -o public/css/styles.css --minify"
+    "deploy-tailwind": "NODE_ENV=production npx tailwindcss build -i src/css/base-styles.css -o public/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "postcss-import": "^14.0.2"
   }
 }

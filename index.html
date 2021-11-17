@@ -67,7 +67,9 @@
               </div>
             </a>
             <div class="flex items-center">
-              <a class="py-4 px-2 mx-2" href="about.html">About</a>
+              <a class="py-4 px-2 mx-2 text-primary-orange" href="about.html"
+                >About</a
+              >
               <a class="py-4 px-2 mx-2" href="#program">Program</a>
               <a class="py-4 px-2 mx-2" href="#">Join</a>
               <a class="py-4 px-2 mx-2" href="#partners">Sponsor</a>
@@ -297,11 +299,22 @@
         </article>
       </div>
       <button
-        class="bg-primary-orange text-primary-gray px-4 py-6 font-bold text-lg"
+        class="
+          bg-primary-orange
+          text-primary-gray
+          px-4
+          py-6
+          font-bold
+          text-lg
+          md:hidden
+        "
         type="button"
       >
         Join E-Sport Amateur Tournament
       </button>
+      <a class="hidden md:block underline text-lg py-10" href="#"
+        >SEE THE WHOLE PROGRAM</a
+      >
     </section>
 
     <section id="featured-games">
@@ -351,13 +364,22 @@
       </div>
     </section>
 
-    <footer class="flex justify-between items-center gap-4 p-8 md:px-10%">
+    <footer
+      class="
+        flex
+        justify-between
+        items-center
+        gap-4
+        p-8
+        md:px-20% md:gap-8 md:py-12
+      "
+    >
       <img
-        class="w-40"
+        class="w-40 md:w-60"
         src="assets/icons/logo-microverse.png"
         alt="Microverse-logo"
       />
-      <div class="w-auto md:w-96">
+      <div class="w-auto">
         <p>Module No.1 Capstone Project - Nov 2021</p>
         <p class="text-xs">
           All the content exposed in this page is fictional. The icons, logos

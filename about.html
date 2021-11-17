@@ -66,7 +66,7 @@
               </div>
             </a>
             <div class="flex items-center">
-              <a class="py-4 px-2 mx-2 text-center" href="about.html">About</a>
+              <a class="py-4 px-2 mx-2 text-center text-primary-orange" href="about.html">About</a>
               <a class="py-4 px-2 mx-2 text-center" href="#history">Our History</a>
               <a class="py-4 px-2 mx-2 text-center" href="#past-events">Past Tournaments</a>
               <a class="py-4 px-2 mx-2 text-center" href="#partners">Sponsor</a>
@@ -201,15 +201,21 @@
       </nav>
     </header>
 
-    <main class="py-20 px-4 w-auto bg-gray-200 bg-opacity-25 bg-main flex flex-col justify-center items-center        md:pt-32 md:px-10%">
-      <p class="text-2xl text-primary-orange">Welcome to</p>
-      <h1 class="gradient-h1 text-center mt-4">E-Sport Amateur Tournament</h1>
-      <p class="text-center mt-8 border py-4 px-4 rounded bg-gray-50 md:mx-10%">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-        obcaecati autem maiores consequatur nulla vel perspiciatis,
-        necessitatibus quam quae error suscipit magni laboriosam et quod
-        expedita aperiam omnis impedit? Cumque.
-      </p>
+    <main class="py-20 px-4 w-auto bg-gray-200 bg-opacity-25 bg-main flex flex-col justify-center items-center md:pt-60 md:px-10% md:pb-32">
+      <p class="text-2xl text-primary-orange md:text-4xl">Welcome to</p>
+      <h1 class="gradient-h1 text-center mt-4 md:text-7xl md:my-8">E-Sport Amateur Tournament</h1>
+      <div class="text-center mt-8 border py-4 px-4 rounded bg-gray-50 md:mx-10%">
+        <p class="md:hidden">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          obcaecati autem maiores consequatur nulla vel perspiciatis,
+          necessitatibus quam quae error suscipit magni laboriosam et quod
+          expedita aperiam omnis impedit? Cumque.
+        </p>
+        <p class="hidden md:block">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt illo aspernatur quis consectetur fuga ex quisquam, aut eaque sunt assumenda. Distinctio reprehenderit tempore adipisci exercitationem magni iste quia, magnam aliquid expedita! Reiciendis temporibus architecto vel ut, ipsa omnis nostrum tempore libero expedita ipsam molestias id nam ullam dicta fugit ad aut fuga perspiciatis aliquam ex optio illum reprehenderit. Aspernatur, consectetur quae illo similique ab modi officia. Voluptas vel reiciendis excepturi aliquam dolore voluptates placeat, quibusdam veniam ex accusamus error! Molestias, provident vero eius autem laboriosam, error fugit sequi nostrum soluta impedit laudantium! Unde rem enim, soluta esse repellat ipsa nam?
+        </p>
+
+      </div>
       <p class="text-center mt-8">
         Please contact us per Email for any further information about ESport
         Amateur Tournament.!
@@ -226,7 +232,7 @@
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quod repellendus quo fuga, nobis impedit illum possimus fugit corrupti ad Lorem ipsum dolor sit amet.       
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsum nemo voluptatibus maiores. Facilis assumenda pariatur officiis quae, id recusandae ad consequatur ratione aspernatur totam rerum beatae sed delectus quidem!
       </p>
-      <div class="border w-full p-8 mt-4">
+      <div class="border px-20% p-8 mt-4">
         <img class="h-40 m-auto" src="assets/icons/logo-event.png" alt="Here is an about img" />
       </div>
     </section>
@@ -263,6 +269,7 @@
       class="
         bg-partners
         text-primary-gray
+        md:hidden
       "
       id="partners"
     >
@@ -298,13 +305,26 @@
       </div>
     </section>
 
-    <footer class="flex justify-between items-center gap-4 p-8 md:px-10%">
+    <footer 
+      class="
+        flex 
+        justify-between 
+        items-center 
+        gap-4 
+        p-8 
+        md:px-20%
+        md:bg-primary-black
+        md:text-primary-gray
+        md:py-12
+        md:gap-8
+      "
+    >
       <img
-        class="w-40"
+        class="w-40 md:w-60"
         src="assets/icons/logo-microverse.png"
         alt="Microverse-logo"
       />
-      <div class="w-auto md:w-96">
+      <div class="w-auto">
         <p>Module No.1 Capstone Project - Nov 2021</p>
         <p class="text-xs">
           All the content exposed in this page is fictional. The icons, logos
