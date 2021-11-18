@@ -82,9 +82,9 @@ You can work in your favorite Code Editor
 
 ## 💻📱 Live Preview
 
-There is no Live Demo available at the moment
+<!-- There is no Live Demo available at the moment -->
 
-<!-- If you want to see a live demo of this project, [click here](https://williamrolando88.github.io/personal-portfolio/) -->
+If you want to see a live demo of this project, [click here](https://williamrolando88.github.io/es-tournament/)
 
 ## Authors
 

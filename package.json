@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "built-tailwind": "tailwindcss build -i src/css/base-styles.css -o public/css/styles.css",
-    "deploy-tailwind": "NODE_ENV=production npx tailwindcss build -i src/css/base-styles.css -o public/css/styles.css --minify"
+    "deploy-tailwind": "NODE_ENV=production npx tailwindcss build -i src/css/base-styles.css -o public/css/styles.css"
   },
   "repository": {
     "type": "git",

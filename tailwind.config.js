@@ -33,6 +33,9 @@ module.exports = {
         '10%': '10%',
         '5%': '5%',
       },
+      gridTemplateRows: {
+        program: 'minmax(0, 1fr) minmax(0, 1fr) auto',
+      },
     },
   },
   variants: {

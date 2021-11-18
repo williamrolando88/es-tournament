@@ -6,72 +6,100 @@
 
 @layer base {
   h1 {
-    @apply text-5xl;
-    @apply font-cocogoose;
-    @apply text-red-600;
+    @apply text-5xl 
+      font-cocogoose 
+      text-red-600;
   }
 
   h2 {
-    @apply text-2xl;
-    @apply md:font-bold;
-    @apply md:text-3xl;
+    @apply text-2xl 
+      md:font-bold 
+      md:text-3xl;
   }
 
   section {
-    @apply flex;
-    @apply flex-col;
-    @apply py-8;
-    @apply px-4;
-    @apply justify-center;
-    @apply items-center;
-    @apply gap-4;
-    @apply md:py-12;
+    @apply flex 
+      flex-col 
+      py-8 
+      px-4 
+      justify-center 
+      items-center 
+      gap-4 
+      md:py-12;
   }
 }
 
-.gradient-h1 {
-  background: -webkit-linear-gradient(top left, #dc2626, #d97706);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+@layer components {
+  .gradient-h1 {
+    background: -webkit-linear-gradient(top left, #dc2626, #d97706);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-.activity-container {
-  @apply flex;
-  @apply my-2;
-  @apply gap-2;
-  @apply p-4;
-  @apply items-center;
-  @apply md:flex-col;
-}
+  .activity {
+    @apply bg-gray-500  
+      bg-opacity-30 
+      rounded 
+      flex-1;
+  }
 
-.activity {
-  @apply bg-gray-500;
-  @apply bg-opacity-30;
-  @apply rounded;
-}
+  .activity-container {
+    @apply grid 
+      grid-cols-11 
+      gap-2 
+      p-2 
+      items-center 
+      md:grid-cols-1
+      md:grid-rows-4;
+  }
 
-.activity-title {
-  @apply text-primary-orange;
-  @apply font-black;
-  @apply text-lg;
-  @apply w-7/12;
-  @apply p-2;
-  @apply md:w-full;
-  @apply md:text-center;
-}
+  .activity-img {
+    @apply col-start-1 
+      col-end-3 
+      md:m-auto
+      md:w-14
+      md:col-end-2
+      md:row-start-1 
+      md:row-end-2;
+  }
 
-.img-feature-container {
-  @apply bg-feature;
-  @apply h-32;
-  @apply w-32;
-  @apply flex;
-  @apply justify-end;
-  @apply items-end;
-  @apply bg-50c;
-  @apply bg-no-repeat;
-}
+  .activity-title {
+    @apply text-primary-orange 
+      font-black
+      text-lg
+      p-2
+      col-start-3 
+      col-end-6
+      md:text-center
+      md:col-start-1 
+      md:col-end-2
+      md:row-start-2
+      md:row-end-3;
+  }
 
-.img-feature {
-  @apply h-5/6;
-  @apply w-5/6;
+  .activity-description {
+    @apply col-start-6 
+      col-end-12
+      md:text-center
+      md:col-start-1
+      md:col-end-2
+      md:row-start-3
+      md:row-end-5;
+  }
+
+  .img-feature-container {
+    @apply bg-feature 
+      h-32 
+      w-32 
+      flex 
+      justify-end 
+      items-end 
+      bg-50c 
+      bg-no-repeat;
+  }
+
+  .img-feature {
+    @apply h-5/6 
+      w-5/6;
+  }
 }
