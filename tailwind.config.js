@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.js', '**/*.html'],
+  purge: ['./src/**/*.html', './**/*.js', '**/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -32,9 +32,6 @@ module.exports = {
         '20%': '20%',
         '10%': '10%',
         '5%': '5%',
-      },
-      gridTemplateRows: {
-        program: 'minmax(0, 1fr) minmax(0, 1fr) auto',
       },
     },
   },

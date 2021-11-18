@@ -69,7 +69,7 @@
       text-lg
       p-2
       col-start-3 
-      col-end-6
+      col-end-7
       md:text-center
       md:col-start-1 
       md:col-end-2
@@ -78,7 +78,7 @@
   }
 
   .activity-description {
-    @apply col-start-6 
+    @apply col-start-7 
       col-end-12
       md:text-center
       md:col-start-1
