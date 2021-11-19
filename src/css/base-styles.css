@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+    @apply font-cocogoose;
+    @apply text-red-600;
+  }
+
+  h2 {
+    @apply text-2xl;
+    @apply md:font-bold;
+    @apply md:text-3xl;
+  }
+
+  section {
+    @apply flex;
+    @apply flex-col;
+    @apply py-8;
+    @apply px-4;
+    @apply justify-center;
+    @apply items-center;
+    @apply gap-4;
+    @apply md:py-12;
+  }
+}
+
+@layer components {
+  .gradient-h1 {
+    background: -webkit-linear-gradient(top left, #dc2626, #d97706);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .activity {
+    @apply bg-gray-500;
+    @apply bg-opacity-30;
+    @apply rounded;
+    @apply flex-1;
+  }
+
+  .activity-container {
+    @apply grid;
+    @apply grid-cols-11;
+    @apply gap-2;
+    @apply p-2;
+    @apply items-center;
+    @apply md:grid-cols-1;
+    @apply md:grid-rows-4;
+  }
+
+  .activity-img {
+    @apply col-start-1;
+    @apply col-end-3;
+    @apply md:m-auto;
+    @apply md:w-14;
+    @apply md:col-end-2;
+    @apply md:row-start-1;
+    @apply md:row-end-2;
+  }
+
+  .activity-title {
+    @apply text-primary-orange;
+    @apply font-black;
+    @apply text-lg;
+    @apply p-2;
+    @apply col-start-3;
+    @apply col-end-7;
+    @apply md:text-center;
+    @apply md:col-start-1;
+    @apply md:col-end-2;
+    @apply md:row-start-2;
+    @apply md:row-end-3;
+  }
+
+  .activity-description {
+    @apply col-start-7;
+    @apply col-end-12;
+    @apply md:text-center;
+    @apply md:col-start-1;
+    @apply md:col-end-2;
+    @apply md:row-start-3;
+    @apply md:row-end-5;
+  }
+
+  .img-feature-container {
+    @apply bg-feature;
+    @apply h-32;
+    @apply w-32;
+    @apply flex;
+    @apply justify-end;
+    @apply items-end;
+    @apply bg-50c;
+    @apply bg-no-repeat;
+  }
+
+  .img-feature {
+    @apply h-5/6;
+    @apply w-5/6;
+  }
+}

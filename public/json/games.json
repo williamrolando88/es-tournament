@@ -1,0 +1,44 @@
+[
+  {
+    "imgSource": "../../assets/icons/cover-fortnite.jpeg",
+    "imgAlt": "Fortnite cover",
+    "h3TextContent": "Fortnite",
+    "h4TextContent": "Lorem ipsum dolor sit amet consectetur.",
+    "pTextContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, saepe dolorem, ex hic repellendus voluptatum, nostrum rerum impedit ad dolor quod vel provident non tempore incidunt qui similique ratione ab."
+  },
+  {
+    "imgSource": "assets/icons/cover-LoL.jpg",
+    "imgAlt": "League of Legends cover",
+    "h3TextContent": "League of Legends",
+    "h4TextContent": "Lorem ipsum dolor sit amet consectetur.",
+    "pTextContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, saepe dolorem, ex hic repellendus voluptatum, nostrum rerum impedit ad dolor quod vel provident non tempore incidunt qui similique ratione ab."
+  },
+  {
+    "imgSource": "assets/icons/cover-GTA-V.jpeg",
+    "imgAlt": "GTA V cover",
+    "h3TextContent": "GTA V",
+    "h4TextContent": "Lorem ipsum dolor sit amet consectetur.",
+    "pTextContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, saepe dolorem, ex hic repellendus voluptatum, nostrum rerum impedit ad dolor quod vel provident non tempore incidunt qui similique ratione ab."
+  },
+  {
+    "imgSource": "assets/icons/cover-CoDW.jpeg",
+    "imgAlt": "Call of Duty Warzone cover",
+    "h3TextContent": "Call of Duty Warzone",
+    "h4TextContent": "Lorem ipsum dolor sit amet consectetur.",
+    "pTextContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, saepe dolorem, ex hic repellendus voluptatum, nostrum rerum impedit ad dolor quod vel provident non tempore incidunt qui similique ratione ab."
+  },
+  {
+    "imgSource": "assets/icons/cover-valorant.jpg",
+    "imgAlt": "Valorant cover",
+    "h3TextContent": "Valorant",
+    "h4TextContent": "Lorem ipsum dolor sit amet consectetur.",
+    "pTextContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, saepe dolorem, ex hic repellendus voluptatum, nostrum rerum impedit ad dolor quod vel provident non tempore incidunt qui similique ratione ab."
+  },
+  {
+    "imgSource": "assets/icons/cover-halo.jpeg",
+    "imgAlt": "Halo Infinite cover",
+    "h3TextContent": "Halo Infinite",
+    "h4TextContent": "Lorem ipsum dolor sit amet consectetur.",
+    "pTextContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, saepe dolorem, ex hic repellendus voluptatum, nostrum rerum impedit ad dolor quod vel provident non tempore incidunt qui similique ratione ab."
+  }
+]

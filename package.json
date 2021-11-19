@@ -1,0 +1,29 @@
+{
+  "name": "es-tournament",
+  "version": "1.0.0",
+  "description": "This is a season tournament webpage",
+  "main": "index.js",
+  "scripts": {
+    "built-tailwind": "tailwindcss build -i src/css/base-styles.css -o public/css/styles.css",
+    "deploy-tailwind": "NODE_ENV=production npx tailwindcss build -i src/css/base-styles.css -o public/css/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamrolando88/es-tournament.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamrolando88/es-tournament/issues"
+  },
+  "homepage": "https://github.com/williamrolando88/es-tournament#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "postcss-import": "^14.0.2"
+  }
+}
