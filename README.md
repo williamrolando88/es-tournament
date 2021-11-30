@@ -98,7 +98,7 @@ If you want to see a live demo of this project, [click here](https://williamrola
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](/**/issues).
+Feel free to check the [issues page](../../issues).
 
 ## 👏 Show your support
 
