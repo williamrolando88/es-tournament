@@ -92,7 +92,7 @@ If you want to see a live demo of this project, [click here](https://williamrola
 
 - GitHub: [@williamrolando88](https://github.com/williamrolando88)
 - Twitter: [@WillyMorales93](https://twitter.com/WillyMorales93)
-- LinkedIn: [William Morales](https://www.linkedin.com/in/william-morales-palma/)
+- LinkedIn: [William Morales](https://www.linkedin.com/in/william-rolando-morales/)
 
 ## 🤝 Contributing
 
